@@ -1,3 +1,9 @@
+/**
+ * 
+ * GUIFFO KUICHEU Kevin SQR 4A
+ * Machine permet de coder des caractéres
+ */
+
 package enigma;
 
 public class Machine {

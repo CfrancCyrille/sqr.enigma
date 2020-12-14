@@ -1,3 +1,9 @@
+/**
+ * 
+ * GUIFFO KUICHEU Kevin SQR 4A
+ * Rotor fournit le caractére codé pour le rotor suivant ou pour le reflector
+ */
+
 package enigma;
 
 public class Rotor {
