@@ -4,9 +4,14 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
+/*
+Permet de tester la validité de la classe machine
+*/
+
 public class RotorTest {
 
-	@Test
+	//@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
