@@ -2,11 +2,17 @@ package enigma;
 
 public class Machine {
 
+	/*
+		Déclaration des rotors et du reflecteur
+	*/
 	private Rotor leftRotor;
 	private Rotor middleRotor;
 	private Rotor rightRotor;
 	private Reflector reflector;
-
+	
+	/*
+		Initialisation des rotors et du reflecteur
+	*/
 	public void initRotors(Reflector reflector, Rotor left, Rotor middle, Rotor right) {
 		this.reflector = reflector;
 		leftRotor = left;
@@ -14,6 +20,9 @@ public class Machine {
 		rightRotor = right;
 	}
 
+	/*
+		Mise en place des rotors et du reflecteur
+	*/
 	public void setPositions(String setting) {
 		char[] charSettings = setting.toCharArray();
 		reflector.setPosition(Rotor.toIndex(charSettings[0]));
@@ -27,7 +36,10 @@ public class Machine {
 		this.setPositions(setting);
 
 	}
-
+	
+	/*
+		Convertit les caracteres en une chaine en MAJ
+	*/
 	public String convert(String msg) {
 		msg = msg.toUpperCase();
 		char[] msgChars = msg.toCharArray();
@@ -38,6 +50,9 @@ public class Machine {
 		return result;
 	}
 
+	/*
+		Convertit les caractère
+	*/
 	char convertChar(char c) {
 		advanceRotors();
 		int charIndex = Rotor.toIndex(c);
@@ -53,6 +68,9 @@ public class Machine {
 
 	}
 
+	/*
+		Modifie la mise en place des différents rotor
+	*/
 	void advanceRotors() {
 		boolean advanceLeft = false;
 		boolean advanceMiddle = false;

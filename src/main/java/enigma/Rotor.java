@@ -16,6 +16,9 @@ public class Rotor {
         position = posn;
     }
     
+    /*
+		Contruit un rotot en fonction des paramètres indiqués
+	*/
 	public static Rotor rotorFactory(String str, String notches){
 		char[] s = str.trim().replace(" ", "").toCharArray();
 		int[] cipher = new int[26];
@@ -30,7 +33,10 @@ public class Rotor {
 		}
 		
 	}
-	
+    
+    /*
+		Fais correspondre les noeuds
+	*/    
 	Rotor(int[] c, int notch1, int notch2) {
 		this.notch1 = notch1;
 		this.notch2 = notch2;

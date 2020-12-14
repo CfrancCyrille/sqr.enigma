@@ -7,6 +7,9 @@ public class Reflector extends Rotor {
 	
 	int[] reflection;
 	
+	/*
+		Contruit un reflecteur en fonction des paramètres indiqués
+	*/
 	public static Reflector reflectorFactory(String str){
 		char[] s = str.trim().replace(" ", "").toCharArray();
 		int[] cipher = new int[26];
