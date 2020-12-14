@@ -42,6 +42,7 @@ public class MachineTest {
 	public void setPositions_test(){
 		Machine m = new Machine();
 		Main.configure(m, config);
+		String messagebidon = m.convert(msg2);
 		m.setPositions("AXLE");
 		String expected = code2;
 		String actual = m.convert(msg2);
@@ -53,8 +54,8 @@ public class MachineTest {
 	public void advanceRotors(){
 		Machine m = new Machine();
 		Main.configure(m, config);
-		String expected = code1;
 		m.advanceRotors();
+		String expected = code1;
 		String actual = m.convert(msg1);
 		assertNotEquals(expected, actual);
 	}
