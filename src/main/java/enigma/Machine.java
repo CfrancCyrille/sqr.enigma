@@ -1,5 +1,9 @@
 package enigma;
-
+/**
+ * Definition de la classe machine
+ * @author KAYO WILLIAM STAEL
+ *
+ */
 public class Machine {
 
 	private Rotor leftRotor;
