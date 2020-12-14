@@ -12,19 +12,20 @@ public class Rotor {
         return position;
     }
 
+    // Defini la position du Rotor
     public void setPosition(int posn) {
         position = posn;
     }
     
 	public static Rotor rotorFactory(String str, String notches){
-		char[] s = str.trim().replace(" ", "").toCharArray();
+		char[] s = str.trim().replace(" ", "").toCharArray();  //on enlève les espaces dans le tableau de caractères et on remplace chaque caractère dans le tableau de caractère 's'
 		int[] cipher = new int[26];
 		for (int i = 0; i< 26; i++){
 			cipher[i] = toIndex(s[i]);
 		}
-		s = notches.trim().replace(" and ", "").toCharArray();
+		s = notches.trim().replace(" and ", "").toCharArray();//On enlève les 'and' du string et on remplace les caractères  dans le tableau de caractères
 		if (s.length == 2){
-			return new Rotor(cipher, toIndex(s[0]), toIndex(s[1]));
+			return new Rotor(cipher, toIndex(s[0]), toIndex(s[1])); //Si le tableau de chaine de caractère à une taille de 2  
 		} else {
 			return new Rotor(cipher, toIndex(s[0]));
 		}
@@ -45,11 +46,11 @@ public class Rotor {
 	}
 
     public int convertForward(int p) {
-        return ((cipher[((p+position)%26+26)%26]-position)%26+26)%26;
+        return ((cipher[((p+position)%26+26)%26]-position)%26+26)%26; //convertie la position en avant
     }
 
     public int convertBackward(int e) {
-        return ((bcipher[((e+position)%26+26)%26]-position)%26+26)%26;
+        return ((bcipher[((e+position)%26+26)%26]-position)%26+26)%26; //convertie la position en arrière
     }
     
     public void advance() {
