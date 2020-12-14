@@ -1,5 +1,9 @@
 package enigma;
 
+/*
+ * Utilisation des rotors et des reflectors pour le cryptage
+ * */
+
 public class Machine {
 
 	private Rotor leftRotor;
