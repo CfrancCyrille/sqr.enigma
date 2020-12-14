@@ -1,5 +1,8 @@
 package enigma;
 
+/*
+ * 	Cette classe permet de convertir des messages
+ */
 public class Rotor {
 
     private int position;

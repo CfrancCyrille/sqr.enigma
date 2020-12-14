@@ -1,5 +1,9 @@
 package enigma;
 
+/*
+ * Cette classe permet d'initialiser les positions des rotors
+ * et vérifie qu'on entre des lettres majuscules
+ */
 public class Machine {
 
 	private Rotor leftRotor;
@@ -7,6 +11,7 @@ public class Machine {
 	private Rotor rightRotor;
 	private Reflector reflector;
 
+	
 	public void initRotors(Reflector reflector, Rotor left, Rotor middle, Rotor right) {
 		this.reflector = reflector;
 		leftRotor = left;
