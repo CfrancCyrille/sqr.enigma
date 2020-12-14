@@ -18,6 +18,23 @@ Code for the German Enigma machine used in WW2.
 ## Functions to be tested
 Hereafter, for each classes give function to be tested. Remember that all functions does not have to be tested, some code can be checked by a simple inspection or an analyse, another code can be validated by definition (rules, etc) the others function can be tecsted by unit tests, integration tests or validation tests (IADT: Inspect, Analyse, Define, Test). 
 
+### Classe Machine
+#### functions
+
+void advanceRotors()
+
+### Classe Reflector
+#### functions
+
+public int convertForward(int p)
+
+### Classe Rotor
+#### functions
+
+public int convertForward(int p)
+
+public int convertBackward(int e)
+
 ## Test some functions
 
 ### Classe Machine
