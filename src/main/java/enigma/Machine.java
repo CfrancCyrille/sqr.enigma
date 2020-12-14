@@ -1,5 +1,7 @@
 package enigma;
 
+	/** Cette classe permet la construction de notre machine en placant les différents composants. **/
+
 public class Machine {
 
 	private Rotor leftRotor;

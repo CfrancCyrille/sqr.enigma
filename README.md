@@ -21,11 +21,22 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 ### Classe Machine
 #### functions
 
+public String convert(String msg)
+ char convertChar(char c)
+ void advanceRotors()
+ 
 ### Classe Reflector
 #### functions
 
+ public int convertForward(int p)
+ public int convertBackward(int unused)
+ 
 ### Classe Rotor
 #### functions
+
+public int convertForward(int p)
+ public int convertBackward(int e)
+ private void createBCipher() 
 
 ## Test some functions
 
