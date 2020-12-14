@@ -1,8 +1,10 @@
 package enigma;
 
 /** Class that represents a reflector in the enigma.
- *  @author
+ *  @Pierre_Mazurek
  */
+
+/** création de la classe Reflector qui permet d'attribuer une valeur à un charactère*/
 public class Reflector extends Rotor {
 	
 	int[] reflection;

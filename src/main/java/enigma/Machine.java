@@ -1,5 +1,10 @@
 package enigma;
 
+/**
+ * @Pierre_Mazurek
+ * la classe Machine reprend Reflector et Rotor pour créer le fonctionnement global de Enigma
+ */
+
 public class Machine {
 
 	private Rotor leftRotor;
@@ -7,6 +12,7 @@ public class Machine {
 	private Rotor rightRotor;
 	private Reflector reflector;
 
+/**On initialise tous les éléments de la machine*/
 	public void initRotors(Reflector reflector, Rotor left, Rotor middle, Rotor right) {
 		this.reflector = reflector;
 		leftRotor = left;
@@ -14,6 +20,7 @@ public class Machine {
 		rightRotor = right;
 	}
 
+/**On indique les positions des Rotors*/
 	public void setPositions(String setting) {
 		char[] charSettings = setting.toCharArray();
 		reflector.setPosition(Rotor.toIndex(charSettings[0]));
@@ -21,13 +28,15 @@ public class Machine {
 		middleRotor.setPosition(Rotor.toIndex(charSettings[2]));
 		rightRotor.setPosition(Rotor.toIndex(charSettings[3]));
 	}
-	
+
+/**on instancie directement le principe d'initiation et de position des rotors*/
 	public void configure(Reflector reflector, Rotor left, Rotor middle, Rotor right, String setting) {
 		this.initRotors(reflector, left, middle, right);
 		this.setPositions(setting);
 
 	}
 
+/**Appel des fonctions nécessaires pour pouvoir effectuer la conversion*/
 	public String convert(String msg) {
 		msg = msg.toUpperCase();
 		char[] msgChars = msg.toCharArray();
@@ -38,6 +47,7 @@ public class Machine {
 		return result;
 	}
 
+/**principe de codage Enigma pour un charactère donné*/
 	char convertChar(char c) {
 		advanceRotors();
 		int charIndex = Rotor.toIndex(c);
@@ -53,6 +63,7 @@ public class Machine {
 
 	}
 
+/**mécanique de rotation des rotors*/
 	void advanceRotors() {
 		boolean advanceLeft = false;
 		boolean advanceMiddle = false;

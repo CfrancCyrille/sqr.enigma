@@ -1,5 +1,14 @@
 package enigma;
 
+/**
+ * @Pierre_Mazurek
+ * la classe Rotor symbolise les rotor de la machine Enigma et
+ * va définir leurs axes de rotation, leur positionnement possible
+ * et leurs noms
+ */
+
+
+
 public class Rotor {
 
     private int position;
@@ -12,6 +21,7 @@ public class Rotor {
         return position;
     }
 
+/** Défini la position du Rotor*/
     public void setPosition(int posn) {
         position = posn;
     }
