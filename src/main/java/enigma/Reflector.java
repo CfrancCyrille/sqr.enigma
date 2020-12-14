@@ -1,3 +1,9 @@
+/**
+ * 
+ * GUIFFO KUICHEU Kevin SQR 4A
+ * Rlector fonctionne comme le Roto, il renvoit le caratére code au Rotor
+ */
+
 package enigma;
 
 /** Class that represents a reflector in the enigma.
