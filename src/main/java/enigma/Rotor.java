@@ -1,5 +1,9 @@
 package enigma;
 
+/** Création des reflectors 
+ */
+
+
 public class Rotor {
 
     private int position;
