@@ -1,5 +1,9 @@
 package enigma;
 
+/**
+ * Cette classe crées les retors necessaires au chiffrement, les differents retors pointes les un sur les autres pour transformer les lettres en une autres.
+ */
+
 public class Rotor {
 
     private int position;

@@ -1,5 +1,9 @@
 package enigma;
 
+/**
+ * Utilise les retors et reflector pour coder les informations avec la logique de la machine enigma
+ */
+
 public class Machine {
 
 	private Rotor leftRotor;
