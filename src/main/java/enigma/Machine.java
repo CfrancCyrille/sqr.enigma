@@ -7,19 +7,19 @@ public class Machine {
 	private Rotor rightRotor;
 	private Reflector reflector;
 
-	public void initRotors(Reflector reflector, Rotor left, Rotor middle, Rotor right) {
+	public void initRotors(Reflector reflector, Rotor left, Rotor middle, Rotor right) { // Initiation du reflector et des différentes positions des Rotor
 		this.reflector = reflector;
 		leftRotor = left;
 		middleRotor = middle;
 		rightRotor = right;
 	}
 
-	public void setPositions(String setting) {
+	public void setPositions(String setting) { // Mettre les positions du reflector et des différentes positions du Rotor
 		char[] charSettings = setting.toCharArray();
-		reflector.setPosition(Rotor.toIndex(charSettings[0]));
-		leftRotor.setPosition(Rotor.toIndex(charSettings[1]));
-		middleRotor.setPosition(Rotor.toIndex(charSettings[2]));
-		rightRotor.setPosition(Rotor.toIndex(charSettings[3]));
+		reflector.setPosition(Rotor.toIndex(charSettings[0]));// Attribuer la position du reflector en lui donnant la valeur en utilisant la valeur dans le tableau d'index 0
+		leftRotor.setPosition(Rotor.toIndex(charSettings[1]));// Attribuer la position du leftRotor en lui donnant la valeur en utilisant la valeur dans le tableau d'index 1
+		middleRotor.setPosition(Rotor.toIndex(charSettings[2]));// Attribuer la position du middleRotor en lui donnant la valeur en utilisant la valeur dans le tableau d'index 2
+		rightRotor.setPosition(Rotor.toIndex(charSettings[3]));// Attribuer la position du rightRotor en lui donnant la valeur en utilisant la valeur dans le tableau d'index 3
 	}
 	
 	public void configure(Reflector reflector, Rotor left, Rotor middle, Rotor right, String setting) {
@@ -28,7 +28,7 @@ public class Machine {
 
 	}
 
-	public String convert(String msg) {
+	public String convert(String msg) { 
 		msg = msg.toUpperCase();
 		char[] msgChars = msg.toCharArray();
 		String result = "";
