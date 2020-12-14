@@ -2,14 +2,14 @@
 Code for the German Enigma machine used in WW2.
 
 ## Questions
-- Fork this github repository
-- Run the project
-- Comment the 3 classes
-- Commit your changes and check-it into github
-- On github, make a pull request
-- Complete the next section : "Functions to be tested" into this file
-- Commit your changes (commit README.md)
-- On github, update your pull request 
+- Fork this github repository - done
+- Run the project - done
+- Comment the 3 classes - done
+- Commit your changes and check-it into github - done
+- On github, make a pull request - done
+- Complete the next section : "Functions to be tested" into this file - done
+- Commit your changes (commit README.md) - done
+- On github, update your pull request - done
 - Make tests (call your test functions using the rule: GIVEN_WHEN_THEN) 
 - Commit your changes
 - On github, update your pull request 
@@ -21,11 +21,19 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 ### Classe Machine
 #### functions
 
+void advanceRotors()
+
 ### Classe Reflector
 #### functions
 
+public int convertForward(int p)
+
 ### Classe Rotor
 #### functions
+
+public int convertForward(int p)
+
+public int convertBackward(int e)
 
 ## Test some functions
 

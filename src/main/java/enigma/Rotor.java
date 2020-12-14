@@ -1,5 +1,10 @@
 package enigma;
 
+/** Class that represents a rotor in the enigma.
+ *  @author
+ *  Rotor permit to replace one character by another : making a similiraty between to character.
+ *  Also, its position turn. Then, a character, A for example, can't be encrypt the same way twice.
+ */
 public class Rotor {
 
     private int position;

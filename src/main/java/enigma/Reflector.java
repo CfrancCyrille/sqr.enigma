@@ -2,6 +2,8 @@ package enigma;
 
 /** Class that represents a reflector in the enigma.
  *  @author
+ * 	Reflector connect outputs of last rotor by pairs, redirecting rotors in different ways.
+ * 	This reflector permits involutivity of Enigma : decrypt and encrypt is the same
  */
 public class Reflector extends Rotor {
 	

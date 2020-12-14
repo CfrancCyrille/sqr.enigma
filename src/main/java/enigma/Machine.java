@@ -1,5 +1,9 @@
 package enigma;
 
+/** Class that represent the enigma machine
+ * @author
+ * Enigma machine is composed by 3 rotors and a reflector
+ */
 public class Machine {
 
 	private Rotor leftRotor;
