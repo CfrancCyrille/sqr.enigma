@@ -2,7 +2,7 @@
 Code for the German Enigma machine used in WW2.
 
 ## Questions
-- Fork this github repository
+- Fork this github repository 	-done
 - Run the project
 - Comment the 3 classes
 - Commit your changes and check-it into github

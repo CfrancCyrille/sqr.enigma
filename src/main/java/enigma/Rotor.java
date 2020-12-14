@@ -1,5 +1,8 @@
 package enigma;
 
+/** Class that represents a rotor in the enigma.
+ *  @author Vincent Pezet
+ */
 public class Rotor {
 
     private int position;

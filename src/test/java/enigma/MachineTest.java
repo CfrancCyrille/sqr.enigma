@@ -14,7 +14,7 @@ public class MachineTest {
 	String msg2 = "HYIHLBKOMLIUYDCMPPSFSZW";
 	String code2 = "FROMHISSHOULDERHIAWATHA";
 	
-	@Test
+	//@Test
 	/**
 	 * This is more a validation tests, than an unit test
 	 */
@@ -26,7 +26,7 @@ public class MachineTest {
 		assertEquals(expected, actual);
 	}
 
-	@Test
+	//@Test
 	/**
 	 * This is more a validation tests, than an unit test
 	 */
