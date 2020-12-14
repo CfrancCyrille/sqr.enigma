@@ -21,11 +21,27 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 ### Classe Machine
 #### functions
 
+public void setPositions(String setting)
+
+void advanceRotors()
+
 ### Classe Reflector
 #### functions
 
+public static Reflector reflectorFactory(String str)
+
+public int convertForward(int p)
+
+public int convertBackward(int e)
+
 ### Classe Rotor
 #### functions
+
+public static Rotor rotorFactory(String str, String notches)
+
+public int convertForward(int p)
+
+public int convertBackward(int e)
 
 ## Test some functions
 
