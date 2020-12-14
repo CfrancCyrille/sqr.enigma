@@ -1,6 +1,11 @@
 package enigma;
 
 public class Rotor {
+    /**
+     * permet de transposer les caractères entrer en faisant tourner le rotor à chaque
+     * nouveau caractere entré et donc de créer une nouvlle combinaison. Si on
+     * rentre deux fois la lettre A par exemple nous n'aurons pas la même lettre dans le message chiffré 
+     */
 
     private int position;
     private int[] cipher = new int[26];
