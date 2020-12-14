@@ -1,5 +1,8 @@
 package enigma;
 
+/** Class that represents a machine in the enigma.
+ *  @author Vincent Pezet
+ */
 public class Machine {
 
 	private Rotor leftRotor;
