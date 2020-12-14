@@ -1,5 +1,9 @@
 package enigma;
-
+/**
+ * Definition de la classe Rotor
+ * @author KAYO WILLIAM STAEL
+ *
+ */
 public class Rotor {
 
     private int position;

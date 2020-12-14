@@ -1,8 +1,11 @@
 package enigma;
-
+/**
+ * Definition de la classe reflector
+ */
 /** Class that represents a reflector in the enigma.
  *  @author
  */
+/*Reflection de la classe*/
 public class Reflector extends Rotor {
 	
 	int[] reflection;
