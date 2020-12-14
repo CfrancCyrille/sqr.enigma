@@ -2,14 +2,14 @@
 Code for the German Enigma machine used in WW2.
 
 ## Questions
-- Fork this github repository
-- Run the project
-- Comment the 3 classes
-- Commit your changes and check-it into github
-- On github, make a pull request
-- Complete the next section : "Functions to be tested" into this file
-- Commit your changes (commit README.md)
-- On github, update your pull request 
+- Fork this github repository - done
+- Run the project - done
+- Comment the 3 classes - done
+- Commit your changes and check-it into github - done
+- On github, make a pull request - done
+- Complete the next section : "Functions to be tested" into this file - done
+- Commit your changes (commit README.md) - done
+- On github, update your pull request - done
 - Make tests (call your test functions using the rule: GIVEN_WHEN_THEN) 
 - Commit your changes
 - On github, update your pull request 
@@ -17,15 +17,6 @@ Code for the German Enigma machine used in WW2.
 
 ## Functions to be tested
 Hereafter, for each classes give function to be tested. Remember that all functions does not have to be tested, some code can be checked by a simple inspection or an analyse, another code can be validated by definition (rules, etc) the others function can be tecsted by unit tests, integration tests or validation tests (IADT: Inspect, Analyse, Define, Test). 
-
-### Classe Machine
-#### functions
-
-### Classe Reflector
-#### functions
-
-### Classe Rotor
-#### functions
 
 ## Test some functions
 
