@@ -1,5 +1,8 @@
 package enigma;
-
+/** Classe Machine : 
+ * Classe qui va setup les positions des rotors, va avancer les rotors
+ * et va chiffrer le message
+ */
 public class Machine {
 
 	private Rotor leftRotor;

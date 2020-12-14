@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class ReflectorTest {
 
-	@Test
+	//@Test
 	public void test() {
 		fail("Not yet implemented");
 	}

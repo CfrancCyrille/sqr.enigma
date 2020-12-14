@@ -1,5 +1,7 @@
 package enigma;
-
+/**
+ * Classe Rotor qui représente les rotors de la machine et leurs paramètres
+ */
 public class Rotor {
 
     private int position;

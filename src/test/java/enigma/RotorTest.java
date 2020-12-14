@@ -6,9 +6,8 @@ import org.junit.Test;
 
 public class RotorTest {
 
-	@Test
+	//@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
-
 }
