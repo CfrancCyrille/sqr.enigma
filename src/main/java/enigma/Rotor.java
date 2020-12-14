@@ -1,5 +1,7 @@
 package enigma;
-    /** Je commente Rotor.Java **/
+
+    /** Cette classe va attribuer une valeur à un caractère grâce aux rotors puis changer de position afin de coder un autre caractère. **/
+
 public class Rotor {
 
     private int position;

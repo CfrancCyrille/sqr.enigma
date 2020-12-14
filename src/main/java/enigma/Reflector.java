@@ -1,9 +1,7 @@
 package enigma;
-	/** Je commente Reflector.Java **/
 
-/** Class that represents a reflector in the enigma.
- *  @author
- */
+	/** Cette fonction represente un reflector et permet d'attribuer une valeur à un caractère **/
+
 public class Reflector extends Rotor {
 	
 	int[] reflection;

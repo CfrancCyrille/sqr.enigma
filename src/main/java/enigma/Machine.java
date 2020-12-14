@@ -1,5 +1,6 @@
 package enigma;
-	/** Je commente Machine.Java **/
+
+	/** Cette classe permet la construction de notre machine en placant les différents composants. **/
 
 public class Machine {
 
