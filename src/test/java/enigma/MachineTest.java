@@ -38,4 +38,24 @@ public class MachineTest {
 		assertEquals(expected, actual);
 	}
 
+	@Test
+	public void setPositions_test(){
+		Machine m = new Machine();
+		Main.configure(m, config);
+		m.setPositions("AXLE");
+		String expected = code2;
+		String actual = m.convert(msg2);
+		assertEquals(expected, actual);
+
+	}
+
+	@Test
+	public void advanceRotors(){
+		Machine m = new Machine();
+		Main.configure(m, config);
+		String expected = code1;
+		m.advanceRotors();
+		String actual = m.convert(msg1);
+		assertNotEquals(expected, actual);
+	}
 }
