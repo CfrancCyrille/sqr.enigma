@@ -1,4 +1,5 @@
 package enigma;
+	/** Je commente Machine.Java **/
 
 public class Machine {
 

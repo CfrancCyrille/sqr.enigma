@@ -1,5 +1,5 @@
 package enigma;
-
+    /** Je commente Rotor.Java **/
 public class Rotor {
 
     private int position;

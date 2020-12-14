@@ -1,4 +1,5 @@
 package enigma;
+	/** Je commente Reflector.Java **/
 
 /** Class that represents a reflector in the enigma.
  *  @author
