@@ -3,7 +3,11 @@ package enigma;
 /** Class that represents a reflector in the enigma.
  *  @author
  */
-public class Reflector extends Rotor {
+public class Reflector extends Rotor {/**reflector class
+	* permet de connecter les entrées au sortie et de donc de complexifier
+	* encore plus le processus de chiffrement.
+	*
+	*/
 	
 	int[] reflection;
 	

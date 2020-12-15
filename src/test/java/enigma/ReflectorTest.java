@@ -8,7 +8,8 @@ public class ReflectorTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+	// public int convertForward(int p)
+	// public int convertBackward(int e)
 	}
 
 }
