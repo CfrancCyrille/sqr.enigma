@@ -13,7 +13,10 @@ public class MachineTest {
 	String code1 = "HYIHBSBOEBTWJZSXMWQKYGWSFR";
 	String msg2 = "HYIHLBKOMLIUYDCMPPSFSZW";
 	String code2 = "FROMHISSHOULDERHIAWATHA";
-	
+
+//**
+
+
 	@Test
 	/**
 	 * This is more a validation tests, than an unit test

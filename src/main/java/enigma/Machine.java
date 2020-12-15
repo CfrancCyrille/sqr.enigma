@@ -1,4 +1,5 @@
 package enigma;
+//**
 
 public class Machine {
 
@@ -28,6 +29,7 @@ public class Machine {
 
 	}
 
+//** Retourne la chaîne de charactere passée en paramètre en majuscule.
 	public String convert(String msg) {
 		msg = msg.toUpperCase();
 		char[] msgChars = msg.toCharArray();
