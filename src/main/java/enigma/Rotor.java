@@ -55,7 +55,8 @@ public class Rotor {
     public void advance() {
         position = (position+1) % 26;
     }
-    
+
+    //** la fonction atNotch() Retourne vrai si position == notch1 ou notch2
     protected boolean atNotch() {
         return (position == notch1 || position == notch2);
     }
